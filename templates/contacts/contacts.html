@@ -1,0 +1,49 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/contact_styles.css'%}">
+    <title>Contacts</title>
+</head>
+<body>
+    <h2>Contacts</h2>
+    
+    <section>
+        <p>Administration</p>
+        <un class="admin">
+             <li>
+                <img class="mobile" src="{% static 'pics/gsm.png' %}" alt="mobile"/> <i>+359 882 818283</i>
+             </li>
+            
+            <li>
+                <img src="{% static 'pics/landline_phone.jpg' %}" alt="landline"> <i>+359 (2) 955 17 17</i>
+            </li>
+            <li>
+                <img src="{% static 'pics/email.jpg' %}" alt="e-mail">
+                <a href="administration@office.com">administration@office.com</a>
+            </li>
+        </un>
+    </section>
+
+    <section>
+        <p>Sales</p>
+        <un class="admin">
+             <li>
+                <img class="mobile" src="{% static 'pics/gsm.png' %}" alt="mobile"/> <i>+359 882 918283</i>
+             </li>
+            
+            <li>
+                <img src="{% static 'pics/landline_phone.jpg' %}" alt="landline"> <i>+359 (2) 955 18 17</i>
+            </li>
+            <li>
+                <img src="{% static 'pics/email.jpg' %}" alt="e-mail">
+                <a href="administration@office.com">sales@office.com</a>
+            </li>
+        </un>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+
+h2 {
+    color: lightcoral;
+    display: block;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+    
+}
+
+section {
+    background-color: #FAF9D4;
+    text-align: left;
+    font-size: medium;
+    width: 300px;
+    
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+    color: #E87F80;
+}
+
+img {
+    width: 13px;
+    height: 13px;
+    padding-top: 7px;
+    align-items: center;
+   
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: blue;
+}

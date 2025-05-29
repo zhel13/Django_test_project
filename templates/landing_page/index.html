@@ -1,0 +1,66 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/styles.css' %}">
+    <link rel="icon" href="{% static '/logo/icon.png' %}"/>
+    <title>Trainings</title>
+</head>
+<body>
+
+    <header>
+        <article class="logo-container">
+            <img class="logo-icon" src="{% static '/logo/icon.png' %}"/>
+            <img class="logo-image" src="{% static '/logo/SoftuniKids.png' %}" />
+        </article>
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Teachers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts/">Contacts</a>
+                </li>
+                <li class="nav-item login-nav-item">
+                    <img src="{% static '/logo/Vector.png' %}">
+                    <form action="/" method="get">
+                        {% csrf_token %}
+
+                        <button class="button login-button">
+                            Login
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Courses</h1>
+            <p>
+                At dolor amet, enim sit augue donec mauris, ac. Eget leo quam et, morbi. 
+                Ut eu hac risus a suscipit cras sagittis viverra gravida. 
+                Lobortis amet imperdiet tincidunt quisque accumsan, porta tellus commodo at. 
+                Augue ullamcorper suspendisse. Sit morbi risus
+            </p>
+        </section>
+        <section class="filters">
+            
+
+        </section>
+    </main>
+    
+</body>
+</html>
